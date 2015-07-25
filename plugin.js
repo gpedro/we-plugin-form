@@ -16,6 +16,7 @@ module.exports = function loadPlugin(projectPath, Plugin) {
   plugin.setHelpers({
     'form':  __dirname + '/server/helpers/form.js',
     'form-model':  __dirname + '/server/helpers/form-model.js',
+    'view-model':  __dirname + '/server/helpers/view-model.js',
     'field-help-error': __dirname + '/server/helpers/field-help-error.js'
   });
 
